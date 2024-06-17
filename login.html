@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akademik Kayıt Sistemi</title>
+    <link rel="shortcut icon" href="img\iu_small.png" type="image/x-icon" >
     <style>
         body {
             margin: 0;
@@ -81,6 +82,31 @@
             margin-top: -10px;
             margin-bottom: 10px;
         }
+
+        footer {
+            background-color: #2E3440;
+            color: #ECEFF4;
+            font-size: 14px;
+            bottom: 0;
+            position: fixed;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 999;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer i {
+            color: red;
+        }
+
+        footer a {
+            color: #88C0D0;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -97,6 +123,11 @@
         <a href="#">Şifremi Unuttum</a>
         <a href="#">Yeni Hesap</a>
     </div>
+    <footer>
+        <p>
+            Tüm hakları saklıdır. İstanbul Üniversitesi 2024.
+        </p>
+    </footer>
     <script>
         function login() {
             const username = document.getElementById('username').value;
